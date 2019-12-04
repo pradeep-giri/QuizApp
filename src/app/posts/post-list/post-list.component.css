@@ -1,0 +1,37 @@
+mat-expansion-panel {
+    margin: 2rem auto;
+    background: #00b7ff44;
+}
+
+:host {
+    display: block;
+    margin-top: 2rem;
+}
+
+mat-spinner {
+    margin: auto;
+}
+
+mat-paginator {
+    margin-top: 1rem;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-image img {
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: auto;
+    height: 200px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
