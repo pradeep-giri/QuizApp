@@ -6,7 +6,7 @@ import { AuthData } from './auth-data.model';
 import { Subject } from 'rxjs';
 import { environment } from 'src/environments/environment';
 
-const BACKEND_URL = environment.apiUrl + '/users';
+const BACKEND_URL = 'https://giri-quiz-app.herokuapp.com/api/users';
 
 
 @Injectable({ providedIn: 'root' })
